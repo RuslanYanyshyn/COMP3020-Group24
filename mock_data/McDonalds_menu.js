@@ -181,14 +181,14 @@ let restaurant_menus = { "McDonald's": [
       name: "Premium Roast Brewed Coffee",
       price: "$1.89",
       calories: 4,
-      desk: "Brewed from 100% Arabica beans, flame-roasted for a rich, delicious full-bodied flavour – in your choice of regular or decaf.",
+      desk: "Brewed from 100% Arabica beans, flame-roasted for a rich, delicious full-bodied flavour &#8208; in your choice of regular or decaf.",
       img: "https://www.mcdonalds.com/is/image/content/dam/ca/nfl/web/nutrition/products/header/en/mcdonalds-coffee.jpg?$Product_Desktop$"
     },
     {
       name: "Latte",
       price: "$2.89",
       calories: 170,
-      desk: "Treat yourself with the smooth and sophisticated Latte, made with our signature McCafé espresso and topped with fresh Canadian milk, steamed and frothed. Visit today!",
+      desk: "Treat yourself with the smooth and sophisticated Latte, made with our signature McCaf&egrave; espresso and topped with fresh Canadian milk, steamed and frothed. Visit today!",
       img: "https://www.mcdonalds.com/is/image/content/dam/ca/nfl/web/nutrition/products/header/en/mcdonalds-latte-2-milk.jpg?$Product_Desktop$"
     },
     {
