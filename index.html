@@ -4,7 +4,8 @@
 <head>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
   <script src="scripts.js"></script>
-  <script src="mock_data/McDonalds_menu.js"></script>
+  <script src="mock_data/menus.js"></script>
+  <script src="mock_data/restaurant_meta.js"></script>
   <script src="cart_item.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="main.css" />
@@ -22,28 +23,12 @@
 
   <div class="bar">
     <form>
-      <input type="text" placeholder="Search">
-      <button type="submit"><i class="fa fa-search"></i></button>
+      <input type="text" id="search" onkeyup="searchTags(document.getElementById('search').value)" placeholder="Search">
+      <button type="submit" ><i class="fa fa-search"></i></button>
     </form>
   </div>
-
-  <div class="row" id="select_buttons"></div>
-
   
-  <div id="overlay" onclick="off()"></div>
-  <div id="bubble1" class="bubble">
-	<svg height="260" width="300">
-  	  <line id="line1" x1="0" y1="200" x2="200" y2="100" style="stroke:rgb(255,0,0);stroke-width:2" />
-	  <circle id="circle1" cx="200" cy="100" r="40" stroke="black" stroke-width="3" fill="red" onclick="expand('circle1','bubbleContent1')" />
-          <text id="bubbleContent1" class="bubbleContent" x="150" y="80" style="fill:black;">Several lines:
-             <tspan x="150" y="100">First line.</tspan>
-             <tspan x="150" y="120">Second line.</tspan>
-          </text>
-        </svg>
-  </div>
-
-
-
+  <div class="row" id="select_buttons"></div>
 
   <div class="container">
     <a id="balloon_buttons"></a>
